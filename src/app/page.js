@@ -69,7 +69,7 @@ export default function Home() {
           <div className="w-1/2 h-full space-y-8 tablet:w-full tablet:text-center">
             <h1 className="text-5xl text-left tablet:text-center">A bit of my journey</h1>
             <p className="text-left text-2xl tablet:text-center">
-              As I said, I started my studies at university in 2020, but I got my first job as a developer at Enki Games in 2023. My first system was developed for my uncle's storage business. But every story has a beginning, and mine is just starting.
+              As I said, I started my studies at university in 2020, but I got my first job as a developer at Enki Games in 2023. My first system was developed for my uncle&s storage business. But every story has a beginning, and mine is just starting.
             </p>
           </div>
         </div>
