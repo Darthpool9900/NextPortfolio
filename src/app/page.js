@@ -78,7 +78,7 @@ export default function Home() {
 
       {/* Seção de Games */}
       <div className="w-full h-dvh bg-blue_bg flex items-center justify-center flex-col space-y-12 tablet:h-auto">
-        <h2 className="text-8xl text-text_blue drop-shadow-blue-Shadow sm:text-6xl mobile:text-4xl">
+        <h2 className="text-8xl text-text_blue drop-shadow-blue-Shadow tablet:text-6xl mobile:text-4xl">
           Games that I work on
         </h2>
         <Carrousel
@@ -90,7 +90,7 @@ export default function Home() {
             { thumb: mrbeast, link: 'https://fortnite.gg/island?code=0238-0299-7524', title: 'MrBeast Crazy Park' }
           ]}
         />
-        <h2 className="text-8xl text-text_blue drop-shadow-blue-Shadow sm:text-6xl mobile:text-4xl">
+        <h2 className="text-8xl text-text_blue drop-shadow-blue-Shadow tablet:text-6xl mobile:text-4xl">
           Systems that I make
         </h2>
         <Carrousel

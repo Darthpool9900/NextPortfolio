@@ -47,7 +47,7 @@ export default function Carrousel({ Content }) {
             {Content.map((content, index) => (
                 <div 
                     key={index} 
-                    className="min-w-[25%] h-auto flex items-center justify-center flex-col  snap-center scrollbar-hide mobile:min-w-[100%] hover:scale-105 transition-transform" // Estilo do item
+                    className="min-w-[25%] h-auto flex items-center justify-center flex-col  snap-center scrollbar-hide tablet:min-w-[100%] hover:scale-105 transition-transform" // Estilo do item
                 >
                     {content.thumb!=null?
                     <Image
