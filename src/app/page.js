@@ -50,7 +50,7 @@ export default function Home() {
               src={profile}
               alt="Developer"
               objectFit="cover"
-              className="rounded-2xl"
+              className="rounded-2xl selector"
             ></Image>
           </div>
         </div>
@@ -64,6 +64,7 @@ export default function Home() {
               objectFit="cover"
               width={500}
               height={500}
+              className="selector"
             ></Image>
           </div>
           <div className="w-1/2 h-full space-y-8 tablet:w-full tablet:text-center">
