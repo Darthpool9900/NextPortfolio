@@ -17,6 +17,7 @@ module.exports = {
     screens: {
       'mobile': { 'max': '360px' }, // Breakpoint agora usa max-width
       'tablet': { 'max': '640px' }, // Breakpoint
+      'really_small': { 'max': '320px' }, // Breakpoint
     },
     dropShadow: {
       'blue-Shadow': '0 0px 25px rgba(52, 198, 207, 0.55)',

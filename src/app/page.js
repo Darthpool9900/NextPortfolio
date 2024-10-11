@@ -25,7 +25,7 @@ export default function Home() {
       {/* Seção inicial */}
       <div className="w-full h-dvh bg-blue_bg flex items-center justify-center">
         <div className="w-full h-auto flex items-center justify-center space-y-6 flex-col">
-          <h1 className="text-8xl text-text_blue drop-shadow-blue-Shadow sm:text-6xl mobile:text-4xl">
+          <h1 className="text-8xl text-text_blue drop-shadow-blue-Shadow tablet:text-6xl tablet:text-center mobile:text-4xl">
             Hi I’m a developer
           </h1>
           <p className="text-center text-white text-2xl mobile:text-lg">
@@ -77,7 +77,7 @@ export default function Home() {
       </div>
 
       {/* Seção de Games */}
-      <div className="w-full h-dvh bg-blue_bg flex items-center justify-center flex-col space-y-12">
+      <div className="w-full h-dvh bg-blue_bg flex items-center justify-center flex-col space-y-12 tablet:h-auto">
         <h2 className="text-8xl text-text_blue drop-shadow-blue-Shadow sm:text-6xl mobile:text-4xl">
           Games that I work on
         </h2>
@@ -101,8 +101,8 @@ export default function Home() {
       </div>
 
       {/* Seção de Contato */}
-      <div className="w-full h-dvh bg-blue_bg flex items-center justify-center flex-col space-y-12" ref={contactRef}>
-        <h2 className="text-8xl text-text_blue drop-shadow-blue-Shadow sm:text-6xl mobile:text-4xl">
+      <div className="w-full h-dvh bg-blue_bg flex items-center justify-center flex-col space-y-12 tablet:h-auto" ref={contactRef}>
+        <h2 className="text-8xl text-text_blue drop-shadow-blue-Shadow  mobile:text-4xl tablet:text-6xl">
           Contact me
         </h2>
         <DefaultForm />
