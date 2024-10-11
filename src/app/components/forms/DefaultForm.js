@@ -39,7 +39,7 @@ export default function DefaultForm() {
             <input
                 type="text"
                 className="w-2/4 h-16 border-2 border-b-text_blue border-transparent px-2 bg-transparent text-2xl mobile:w-4/5"
-                placeholder="Seu email"
+                placeholder="Your best email"
                 value={formData.name}
                 onChange={(e) => setData({ ...formData, name: e.target.value })}
             />
